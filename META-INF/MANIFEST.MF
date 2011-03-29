@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: fdtmaven
+Bundle-SymbolicName: fdtmaven;singleton:=true
+Bundle-Version: 1.0.2.SNAPSHOT
+Bundle-Activator: fdtmaven.Activator
+Bundle-Vendor: Ici La Lune
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.maven.ide.eclipse,
+ org.maven.ide.eclipse.maven_embedder,
+ com.powerflasher.fdt.core,
+ javax.xml;bundle-version="1.3.4",
+ org.jdom;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
